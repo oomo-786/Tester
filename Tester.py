@@ -14,6 +14,6 @@ arc = str(platform.uname().machine)
 if 'arm' in arc:
 	__import__("Nop").appro()
 elif 'aarch' in arc:
-	__import__("Facebook").appr()
+	__import__("Tester").appr()
 else:
 	exit(f' Unknow device machine {arc}')
